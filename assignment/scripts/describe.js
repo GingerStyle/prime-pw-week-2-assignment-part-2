@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We initialize variable 'name' with value of 'Dane'
+// We compare name to 'Mary'
+// 'Dane" is not equal to 'Mary' so
+// we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We initialize variable secret without a value, and intitialze variable code with value of 123
+// WE compare code to see if it is equal to 123. It is equal to 123 so
+// we assign value of 'super' to secret, then multiply the value of code by 2. code equals 246
+// We compare code to see if it greater than 250, it is not so we console.log 'super'
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Initialize variables isStudent with value of true, age with value 34, and zip with value 55407
+// we compare isStudent to a few conditionals. The first and second comparisons to not hold true
+// so their code blocks are skipped.
+// The third conditional is true so we console.log 'Welcome to Prime!', and exit the if statement
 
 //CODE
 /*
