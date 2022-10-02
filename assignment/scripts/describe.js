@@ -130,11 +130,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//colorOne should be set to 'blue', and colorTwo should be set to 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  //colorTwo should also be set to 'purple'
   colorOne = 'purple';
 }
 */
@@ -147,6 +149,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//we should be using the && operator instead of the || operator here.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +163,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//we are checking if minAge is less than or equal to age, instead of if age is greater than or equal to minAge.
+//it should be written like this; age >= minAge.
+//Also the code blocks under the if statement and the else statement should be switched around.
+//So it will console.log 'no entry' and not 'enter' when then code executes after changing the conditional statement.
 if(minAge <= age) {
   console.log('no entry');
 } else {
